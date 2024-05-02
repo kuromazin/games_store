@@ -23,7 +23,7 @@ body{
 }
 .img-r{
     display: flex;
-    padding-left: 40%;
+    justify-content: center;
 }
 
 nav{
@@ -53,8 +53,13 @@ footer{
     margin-top: 20px;
     padding: 5px;
 }
+.cartas{
+    display: flex;
+    padding-left: 10%;
+}
 @media screen and (max-width: 800px){
     .column-100{
+        text-justify: auto;
         width: 100%;
         margin-left:  20px;
         margin-right: 20px;

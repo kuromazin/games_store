@@ -17,6 +17,10 @@ body{
     text-align: center;
     font-size: large;
 }
+.column-33{
+    width: 33.33%;
+    text-align: center;
+}
 .img-r{
     display: flex;
     padding-left: 40%;

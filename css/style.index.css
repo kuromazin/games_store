@@ -76,4 +76,12 @@ footer{
         margin-left: 80px;
         margin-right: 80px;
     }
+     .column-33 {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    footer {
+        width: 100%;
+        margin-right: 20px;
+    }
     }

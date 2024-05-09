@@ -1,5 +1,6 @@
 html{
     font-size: 12px;
+    font-family: "Poetsen One", sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -29,7 +30,13 @@ body{
     text-align: center;
     font-size:x-large ;
     color: rgb(41, 55, 248);
-    
+    justify-content: center;
+    align-items: center;
+}
+.titulo2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .column-33{
     width: 33.33%;
@@ -67,8 +74,10 @@ footer{
     margin-top: 20px;
     padding: 5px;
 }
+
 @media screen and (max-width: 800px){
     .column-100{
+        text-justify: auto;
         width: 100%;
         margin-left:  20px;
         margin-right: 20px;
@@ -80,13 +89,31 @@ footer{
         width: 100%;
         margin-right: 20px;
     }
-    footer {
-        width: 100%;
-        margin-right: 20px;
-    }s
     .imagen{
         width: 400px;
         margin-left: 80px;
         margin-right: 80px;
     }
-    }   
+     .column-33 {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    footer {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      .titulo2 iframe {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .titulo2 {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+}      
